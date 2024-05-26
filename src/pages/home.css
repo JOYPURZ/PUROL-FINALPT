@@ -1,0 +1,49 @@
+/* home.css */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.custom-button {
+  --background: #3880ff;
+  --background-hover: #3171e0;
+  --background-activated: #3171e0;
+  --background-focused: #3171e0;
+  --color: white;
+  margin-top: 10px;
+}
+
+.custom-button-blue {
+  --background: #3171e0;
+  --background-hover: #2563eb;
+  --background-activated: #2563eb;
+  --background-focused: #2563eb;
+  --color: white;
+}
+
+.ion-padding {
+  padding: 16px;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid #dee2e6;
+}
+
+.footer-info {
+  color: #495057;
+}
+
+.footer-info p {
+  margin: 5px 0;
+}
+
+.ion-item {
+  margin-bottom: 10px;
+}
+
+.ion-button[slot="end"] {
+  margin-left: 5px;
+}

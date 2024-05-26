@@ -1,0 +1,71 @@
+/* signup.css */
+body {
+  --ion-background-color: #5ae9a1;
+}
+
+.ion-padding {
+  padding: 16px;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #000000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.animated-placeholder {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.ion-focused {
+  --highlight-color-focused: #3880ff;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.button-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-button {
+  width: 100%;
+  --background: #3880ff;
+  --background-activated: #3171e0;
+}
+
+.signup-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.signup-text span {
+  color: #3880ff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Additional styling for IonAlert */
+ion-alert {
+  --background: #fff;
+  --color: #000;
+}
+
+ion-alert .alert-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #3880ff;
+}
+
+ion-alert .alert-message {
+  font-size: 16px;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "final-it36A",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
